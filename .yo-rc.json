@@ -13,7 +13,6 @@
     "devDatabaseType": "mysql",
     "prodDatabaseType": "mysql",
     "searchEngine": "elasticsearch",
-    "messageBroker": "kafka",
     "buildTool": "gradle",
     "enableSocialSignIn": true,
     "rememberMeKey": "4329a5d4775ee0747d9ba0bf9f5efcc9ecec2833",
