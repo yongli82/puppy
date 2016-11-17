@@ -96,3 +96,13 @@ jhipster:
         contactEmail:
         license:
         licenseUrl:
+    supplierSwagger:
+        title: Supplier API
+        description: Supplier API documentation
+        version: 0.0.1
+        termsOfServiceUrl:
+        contactName:
+        contactUrl:
+        contactEmail:
+        license:
+        licenseUrl:

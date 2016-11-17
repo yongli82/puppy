@@ -26,6 +26,8 @@ public class JHipsterProperties {
 
     private final Swagger swagger = new Swagger();
 
+    private final Swagger supplierSwagger = new Swagger();
+
     private final Metrics metrics = new Metrics();
 
     private final CorsConfiguration cors = new CorsConfiguration();
@@ -56,6 +58,10 @@ public class JHipsterProperties {
 
     public Swagger getSwagger() {
         return swagger;
+    }
+
+    public Swagger getSupplierSwagger() {
+        return supplierSwagger;
     }
 
     public Metrics getMetrics() {
