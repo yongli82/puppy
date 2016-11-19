@@ -288,7 +288,7 @@ ssh.settings {
 
 remotes {
     avon {
-        host = '139.224.105.88'
+        host = '108.61.182.93'
         user = 'puppy'
         password = 'puppy2016'
     }
