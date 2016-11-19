@@ -228,7 +228,7 @@ dependencies {
     compile "org.springframework.social:spring-social-twitter"
 
     compile 'com.qiniu:qiniu-java-sdk:7.0.+'
-    compile "com.google.code.gson:gson:${gson_version}"
+    compile "com.google.code.gson:gson:2.7"
     compile "org.apache.poi:poi:3.9"
     compile "org.apache.poi:poi-ooxml:3.9"
     compile "org.apache.poi:poi-scratchpad:3.9"
@@ -239,6 +239,9 @@ dependencies {
 
     compile "net.sourceforge.tess4j:tess4j:3.2.1"
     compile "org.jsoup:jsoup:1.9.2"
+
+    compile "org.mybatis.spring.boot:mybatis-spring-boot-starter:1.1.1"
+    compile 'com.github.pagehelper:pagehelper:4.1.6'
 
     testCompile "com.jayway.awaitility:awaitility:${awaility_version}"
     testCompile "com.jayway.jsonpath:json-path"
