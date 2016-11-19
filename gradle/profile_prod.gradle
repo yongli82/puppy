@@ -50,5 +50,5 @@ processResources {
 gulpBuildWithOpts.dependsOn 'npmInstall'
 gulpBuildWithOpts.dependsOn 'bower'
 processResources.dependsOn gulpBuildWithOpts
-test.dependsOn gulp_test
-bootRun.dependsOn gulp_test
+//test.dependsOn gulp_test
+//bootRun.dependsOn gulp_test
