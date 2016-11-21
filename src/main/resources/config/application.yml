@@ -96,3 +96,10 @@ jhipster:
     ribbon:
         # comma seperated list of profiles to show a ribbon on the GUI
         displayOnActiveProfiles: dev
+
+
+mybatis:
+    #指定mapper和domain(实体)所在的包
+    type-aliases-package: com.yuling.puppy.mybatis
+    #指定使用的类型转换器
+    type-handlers-package: org.apache.ibatis.type.LocalDateTypeHandler

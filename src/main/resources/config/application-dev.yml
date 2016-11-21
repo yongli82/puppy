@@ -33,7 +33,7 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://108.61.182.93:3306/puppy?useUnicode=true&characterEncoding=utf8&useSSL=false
-        name:
+        name: puppy
         username: puppy
         password: puppy2016
         hikari:
