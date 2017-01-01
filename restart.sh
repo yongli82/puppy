@@ -33,7 +33,7 @@ function ps_gradlew(){
 }
 
 function kill_gradlew(){
-    ps -ef | grep java | grep spring | grep -v grep | grep -v elasticsearch | awk '{ print $2 }' | while read vara
+    ps -ef | grep java | grep PuppyApp | grep -v grep | awk '{ print $2 }' | while read vara
     do
         execute_command "kill -9 $vara"
     done
