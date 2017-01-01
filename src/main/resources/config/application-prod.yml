@@ -28,7 +28,7 @@ spring:
                     destination: topic-jhipster
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://localhost:3306/puppy?useUnicode=true&characterEncoding=utf8&useSSL=false
+        url: jdbc:mysql://108.61.182.93:3306/puppy?useUnicode=true&characterEncoding=utf8&useSSL=false
         name:
         username: puppy
         password: puppy2016
