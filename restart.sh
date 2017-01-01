@@ -55,8 +55,8 @@ function restart_gradlew(){
 
     execute_command "sleep 10"
 
-    log_message "nohup ./gradlew bootRun --info >${GRADLEW_LOG_FILE} 2>&1 &"
-    nohup ./gradlew -Pprod bootRun -x test --info >${GRADLEW_LOG_FILE} 2>&1 &
+    log_message "nohup ./gradlew -Pprod -x test --info >${GRADLEW_LOG_FILE} 2>&1 &"
+    nohup ./gradlew -Pprod -x test --info >${GRADLEW_LOG_FILE} 2>&1 &
 
     ps_gradlew
 }
